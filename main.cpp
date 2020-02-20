@@ -62,6 +62,7 @@ string leer_campo(char* cadena, int tam){
 }
 void menu(string cadena, char* archivo){
     if(cadena == "0800"){
+    	cout << "hola"<< endl;
         posicion = 28;
         cout << "IPv4"<<endl;
         string tipo = leer_campo(archivo,1);
